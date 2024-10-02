@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     res.send("hiiii");
-}
+});
 
 app.get('/api/users', async (req, res) => {
     try {
